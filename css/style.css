@@ -9,6 +9,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #e4e4e4;
   color: #000000;
+  overflow-x: hidden;
 }
 
 *,
