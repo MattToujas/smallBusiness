@@ -9,7 +9,6 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #e4e4e4;
   color: #000000;
-  overflow-x: hidden;
 }
 
 *,
@@ -33,7 +32,7 @@ body {
   padding: 20px 40px;
   background: rgb(17, 17, 17);
   border-bottom: 1px solid #7320d3;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 2;
 }
@@ -280,6 +279,11 @@ body {
     font-size: 2rem;
   }
 }
+@media (max-width: 450px) {
+  .slider .slider {
+    height: 90vh;
+  }
+}
 
 /* animación */
 @-webkit-keyframes reveal {
@@ -390,8 +394,11 @@ body {
   }
 }
 @media (max-width: 450px) {
+  .flex {
+    padding: 3rem 1rem;
+  }
   .flex-item:nth-child(1) {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 }
 /* SERVICES */
@@ -427,6 +434,11 @@ body {
   color: #000000;
 }
 
+@media (max-width: 450px) {
+  .section {
+    padding: 5rem 1rem;
+  }
+}
 .highlight {
   color: #7b2cff;
 }
@@ -518,6 +530,11 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .cards {
+    padding: 40px 10px;
+  }
+}
 /* CONTACT */
 .contact {
   padding: 5rem 3rem;
@@ -621,6 +638,11 @@ body {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
             flex: 1 1 100%;
+  }
+}
+@media (max-width: 450px) {
+  .contact .contact {
+    padding: 5rem 1rem;
   }
 }
 
