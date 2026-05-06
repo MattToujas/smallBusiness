@@ -45,6 +45,9 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
 }
+.navbar-logo img {
+  width: 140px;
+}
 .navbar-links {
   display: -webkit-box;
   display: -ms-flexbox;
